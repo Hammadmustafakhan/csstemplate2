@@ -1,0 +1,243 @@
+* {
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+}
+
+.topnav {
+  display: flex;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-family: "Lato", sans-serif;
+}
+.topnav1 {
+  color: #fff;
+  background-color: #f44336;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.home {
+  background-color: #fff;
+  color: #000;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+.topnav {
+  text-align: left;
+}
+.topnav {
+  font-size: 18px;
+}
+.topnav {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+}
+
+.a11{
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 24px;
+  font-family: "Montserrat", sans-serif;
+} 
+a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.header {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.header {
+  text-align: center;
+}
+.h1top {
+  font-size: 64px;
+  font-family: "Montserrat", sans-serif;
+}
+.p1top {
+  margin: 16px;
+  font-family: "Lato", sans-serif;
+}
+.content {
+  font-size: 24px;
+}
+.content {
+  margin-top: 16px;
+}
+.button {
+  background-color: #000;
+  color: #fff;
+}
+.button {
+  font: inherit;
+  margin: 0;
+}
+.p1top {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.button {
+  padding: 12px 24px;
+  margin-top: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: #757575;
+}
+
+h1 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+h5 {
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 18px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-family: "Lato", sans-serif;
+}
+.grey {
+  color: #757575;
+}
+
+.img {
+  padding: 64px;
+}
+.faanchor::before {
+  content: "\f13d";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 200px;
+  color: #f44336;
+}
+
+.divmain1 {
+  display: flex;
+
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.iconmain{
+  padding-top: 64px;
+  padding-bottom: 64px;
+
+ 
+ 
+ max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.iconmain2{
+    color: #000!important;
+  background-color: #f1f1f1;
+   display: flex;
+}
+.icontext{
+  padding-top: 32px!important;
+  padding-bottom: 32px;
+  font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cupicon::before{
+  content: "\f0f4";
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: 200px;
+  color: #f44336;}
+
+
+.main4{
+  padding-top: 64px!important;
+  padding-bottom: 64px!important;
+  color: #fff!important;
+    background-color: #000!important;
+    text-align: center!important;
+    opacity: 0.60;
+}
+
+.h1f {
+  margin: 16px;
+  font-size: 24px;
+}
+.footer {
+  text-align: center;
+  padding-top: 32px !important;
+  padding-bottom: 32px;
+  margin: 5px;
+}
+
+.footdiv {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+  opacity: 0.6;
+  font-size: 24px !important;
+}
+.p2 {
+  text-align: center;
+  color: #757575;
+      padding-bottom: 64px;
+}
+.a3 {
+  color: #757575;
+}
+.icon{
+  padding-top: 13%;
+    margin-right: 105px;
+}
+.greyd{
+  font-size: 15px;
+  color: #757575;
+  margin: 15px 0px;
+    font-family: "Lato", sans-serif;
+}
+@media only screen and (max-width: 600px){
+  .iconmain2{
+    display: block;
+    
+  }
+  .divmain1{
+    display: block;
+  }
+}
